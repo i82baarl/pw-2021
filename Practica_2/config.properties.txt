@@ -1,0 +1,3 @@
+servidor=oraclepr.uco.es/i82baarl
+usuario=i82baarl
+contrasena=pw2021

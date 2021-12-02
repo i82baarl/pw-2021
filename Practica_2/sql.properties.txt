@@ -1,0 +1,11 @@
+sql_CrearUsuario=insert into Usuario (email,nombre,apellidos,nick,contrasena) values(?,?,?,?,?)
+sql_ComprobarUsuario=select email from Usuario where email =
+sql_EliminarUsuario=delete from Usuario where email=?
+sql_ModificarUsuario1=update Usuario set
+sql_ModificarUsuario2= =? where email=?
+sql_Login=select email,password from Contacto where email =
+
+sql_CrearEspectaculoPuntual=insert into Espectaculo (espectaculo, fecha, hora) values(?,?,?)
+sql_CrearEspectaculoTemporada=insert into Espectaculo (espectaculo,finicial,ffinal,dia,hora,fecha) values(?,?,?,?,?,?)
+sql_CrearEspectaculoMultiple=insert into Espectaculo (fecha,hora,espectaculo) values(?,?,?)
+
