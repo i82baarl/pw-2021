@@ -1,8 +1,0 @@
-	sql_CrearUsuario=insert into Usuario (email,nombre,apellidos,nick,contrasena) values(?,?,?,?,?)
-sql_ComprobarUsuario=select email from Usuario where email =
-sql_EliminarUsuario=delete from Usuario where email=?
-sql_ModificarUsuario1=update Usuario set
-sql_ModificarUsuario2= =? where email=?
-
-
-sql_Login=select email,password from Contacto where email =
