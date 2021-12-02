@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+    <link rel="stylesheet" href="css/registro.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>Teatro Axion</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar-container">
+            <img src="assets/logo.png" alt="logo" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                    <li><a class="active" href="register.html">Register</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        
+    </header>
+
+    <div class="video-wrapper">
+        <video preload="auto" autoplay="" playsinline="" loop="" muted=""><source src="https://teatrocordoba.es/wp-content/uploads/2021/09/bckg_new.mp4" type="video/mp4">
+            <source src="assets/bckg_new.mp4" type="video/mp4">
+        </video>
+    </div>
+        
+    
+
+    <div class="register-container">
+        <h1>Register</h1>
+        <div class="register-fields-container">
+            <form name="registro">
+                <!---NOMBRE-->
+                <li>
+                    <label name="nombre" for="nombre">Nombre</label>
+                    <input placeholder="Introduzca su nombre">
+                </li>
+                <!---PRIMER APELLIDO-->
+                <li>
+                    <label name="apellido1" for="apellido1">Primer apellido</label>
+                    <input placeholder="Introduzca su primer apellido">
+                </li>
+                <!---SEGUNDO APELLIDO-->
+                <li>
+                    <label name="apellido2" for="apellido2">Segundo apellido</label>
+                    <input placeholder="Introduzca su segundo apellido">
+                </li>
+                <!---CORREO-->
+                <li>
+                    <label name="correo" for="correo">Correo</label>
+                    <input type="email" placeholder="Introduzca su correo">
+                </li>
+                <!---CONTRASEÑA-->
+                <li>
+                    <label name="pwd" for="contraseña">Contraseña</label>
+                    <input type="password" placeholder="Introduzca su contraseña">
+                </li>
+                <!--Nombre, apellidos, contraseña y nick-->
+            </form>
+        </div>    
+            
+
+            <button onclick="Registro()" type="button" value="Log in">Register</button>        
+    </div>
+
+</body>
+</html>

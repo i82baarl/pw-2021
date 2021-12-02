@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>Teatro Axion</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar-container">
+            <img src="assets/logo.png" alt="logo" class="logo">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="login.html">Log in</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        
+    </header>
+
+    <div class="video-wrapper">
+        <video preload="auto" autoplay="" playsinline="" loop="" muted=""><source src="https://teatrocordoba.es/wp-content/uploads/2021/09/bckg_new.mp4" type="video/mp4">
+            <source src="assets/bckg_new.mp4" type="video/mp4">
+        </video>
+    </div>
+        
+    
+
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form name="login">
+            <!---USUARIO-->
+            <label name="correo" for="correo">Correo</label>
+            <input type="email" placeholder="Introduzca su correo">
+
+            <!---CONTRASEÑA-->
+            <label name="pwd" for="contraseña">Contraseña</label>
+            <input type="password" placeholder="Introduzca su contraseña">
+
+            <button onclick="Login()" type="button" value="Log in">Log In</button>
+
+            <a href="#">He olvidado mi contraseña.</a>
+            <a href="#">Registrarse.</a>
+        </form>
+    </div>
+
+</body>
+</html>
