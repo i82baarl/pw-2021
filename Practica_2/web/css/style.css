@@ -3,6 +3,7 @@ body {
     background : rgb(68, 68, 68);
     font-family : 'Work Sans', sans-serif;
     font-weight : 300;
+    background: url(../assets/fondo.jpg)
 }
 
 header {
